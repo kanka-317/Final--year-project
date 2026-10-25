@@ -1,0 +1,50 @@
+{
+    "preprocessing_leakage": {
+        "clean_test_accuracy": 0.42733333333333334,
+        "leaky_test_accuracy": 0.42716666666666664,
+        "accuracy_inflation": -0.00016666666666670382,
+        "clean_macro_f1": 0.4231305666160019,
+        "leaky_macro_f1": 0.42295641490357205,
+        "f1_inflation": -0.00017415171242984862
+    },
+    "duplicate_audit": {
+        "exact_dataset_duplicates": 0,
+        "feature_duplicates_total": 0,
+        "train_test_overlap_count": 0
+    },
+    "spatial_leakage": {
+        "standard_cv_acc_mean": 0.41850000000000004,
+        "standard_cv_acc_std": 0.0070109244201096476,
+        "group_cv_acc_mean": 0.4208209737813915,
+        "group_cv_acc_std": 0.008092615801978285,
+        "spatial_performance_gap": -0.0023209737813914555
+    },
+    "shuffled_label_test": {
+        "chance_theoretical": 0.08333333333333333,
+        "shuffled_test_accuracy": 0.08166666666666667,
+        "shuffled_macro_f1": 0.08096438746237088,
+        "passed_sanity_check": true
+    },
+    "single_feature_top": [
+        {
+            "feature": "season_Kharif",
+            "single_feature_acc": 0.17116666666666666
+        },
+        {
+            "feature": "season_Mixed",
+            "single_feature_acc": 0.17116666666666666
+        },
+        {
+            "feature": "season_Perennial",
+            "single_feature_acc": 0.17016666666666666
+        },
+        {
+            "feature": "season_Rabi",
+            "single_feature_acc": 0.1695
+        },
+        {
+            "feature": "relative_humidity_pct",
+            "single_feature_acc": 0.129
+        }
+    ]
+}

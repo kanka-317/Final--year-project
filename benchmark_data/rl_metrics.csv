@@ -1,0 +1,4 @@
+Policy,Total Steps,Cumulative Reward,Average Reward (Accuracy),Formulation Limitation
+Epsilon-Greedy (eps=0.10),3000,265.0,0.08833333333333333,Static cross-sectional environment (no dynamic state transitions)
+UCB-1,3000,276.0,0.092,Static cross-sectional environment (no dynamic state transitions)
+Thompson Sampling,3000,242.0,0.08066666666666666,Static cross-sectional environment (no dynamic state transitions)

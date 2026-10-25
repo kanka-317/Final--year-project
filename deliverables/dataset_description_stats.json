@@ -1,0 +1,563 @@
+{
+    "shape": {
+        "rows": 20000,
+        "columns": 34
+    },
+    "memory_mb": 16.71692180633545,
+    "columns": [
+        {
+            "name": "record_id",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 20000,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "state",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 1,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "district",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 23,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "latitude_approx",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 19067,
+            "mean": 24.105884219,
+            "median": 23.483855,
+            "std": 1.6596276543282564,
+            "min": 21.80343,
+            "max": 27.20122,
+            "skew": 0.5342571998907233,
+            "outlier_count": 0
+        },
+        {
+            "name": "longitude_approx",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 18650,
+            "mean": 88.1057296575,
+            "median": 88.28157999999999,
+            "std": 0.7559198559061506,
+            "min": 86.25181,
+            "max": 89.65445,
+            "skew": -0.33619528769215284,
+            "outlier_count": 831
+        },
+        {
+            "name": "year",
+            "type": "int64",
+            "missing_pct": 0.0,
+            "unique_values": 25,
+            "mean": 2011.97995,
+            "median": 2012.0,
+            "std": 7.207436808933377,
+            "min": 2000.0,
+            "max": 2024.0,
+            "skew": -0.0017229278809064877,
+            "outlier_count": 0
+        },
+        {
+            "name": "crop",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 12,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "season",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 5,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "soil_zone",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 6,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "soil_pH",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 443,
+            "mean": 5.9133154999999995,
+            "median": 5.9,
+            "std": 0.848871758054673,
+            "min": 4.0,
+            "max": 8.5,
+            "skew": 0.10076345737117647,
+            "outlier_count": 75
+        },
+        {
+            "name": "soil_EC_dS_m",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 1832,
+            "mean": 0.6388919,
+            "median": 0.5455000000000001,
+            "std": 0.38056703834925576,
+            "min": 0.064,
+            "max": 3.0,
+            "skew": 1.8176123445110317,
+            "outlier_count": 825
+        },
+        {
+            "name": "soil_organic_carbon_pct",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 1140,
+            "mean": 0.5724222000000001,
+            "median": 0.57,
+            "std": 0.2322721754006133,
+            "min": 0.1,
+            "max": 1.477,
+            "skew": 0.11824841541298216,
+            "outlier_count": 66
+        },
+        {
+            "name": "available_N_kg_ha",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 13205,
+            "mean": 206.377981,
+            "median": 206.3,
+            "std": 60.15621769094182,
+            "min": 50.0,
+            "max": 436.4,
+            "skew": 0.016663956377786962,
+            "outlier_count": 58
+        },
+        {
+            "name": "available_P_kg_ha",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 4846,
+            "mean": 28.145362,
+            "median": 28.075,
+            "std": 11.75195772943724,
+            "min": 3.0,
+            "max": 80.09,
+            "skew": 0.10936857422127287,
+            "outlier_count": 73
+        },
+        {
+            "name": "available_K_kg_ha",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 12324,
+            "mean": 136.87273050000002,
+            "median": 136.975,
+            "std": 51.087914562938366,
+            "min": 20.0,
+            "max": 337.55,
+            "skew": 0.035357136097700935,
+            "outlier_count": 33
+        },
+        {
+            "name": "available_S_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 3426,
+            "mean": 18.1210885,
+            "median": 18.06,
+            "std": 7.868928747431212,
+            "min": 2.0,
+            "max": 52.01,
+            "skew": 0.1276218740726587,
+            "outlier_count": 72
+        },
+        {
+            "name": "Zn_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 203,
+            "mean": 0.9030795000000001,
+            "median": 0.9,
+            "std": 0.3441601865286709,
+            "min": 0.1,
+            "max": 2.35,
+            "skew": 0.08668809593530406,
+            "outlier_count": 65
+        },
+        {
+            "name": "Fe_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 3197,
+            "mean": 18.0049115,
+            "median": 17.98,
+            "std": 6.941991294601605,
+            "min": 2.0,
+            "max": 45.62,
+            "skew": 0.08228772671465931,
+            "outlier_count": 78
+        },
+        {
+            "name": "Mn_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 1501,
+            "mean": 7.995972999999999,
+            "median": 7.96,
+            "std": 2.9845310275726282,
+            "min": 1.0,
+            "max": 20.08,
+            "skew": 0.04480962102674443,
+            "outlier_count": 64
+        },
+        {
+            "name": "Cu_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 238,
+            "mean": 1.0996295000000003,
+            "median": 1.1,
+            "std": 0.3984329243040897,
+            "min": 0.1,
+            "max": 2.58,
+            "skew": 0.04357134077746068,
+            "outlier_count": 62
+        },
+        {
+            "name": "B_mg_kg",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 138,
+            "mean": 0.5521535,
+            "median": 0.55,
+            "std": 0.24607666513508794,
+            "min": 0.05,
+            "max": 1.51,
+            "skew": 0.12779413202030138,
+            "outlier_count": 61
+        },
+        {
+            "name": "annual_mean_temperature_C",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 1719,
+            "mean": 25.1440415,
+            "median": 25.68,
+            "std": 3.007909825336128,
+            "min": 7.66,
+            "max": 32.49,
+            "skew": -1.7920437923620511,
+            "outlier_count": 1460
+        },
+        {
+            "name": "annual_rainfall_mm",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 18933,
+            "mean": 1746.1023520000003,
+            "median": 1599.0,
+            "std": 659.2406946341232,
+            "min": 31.47,
+            "max": 4984.08,
+            "skew": 1.137390482867997,
+            "outlier_count": 1280
+        },
+        {
+            "name": "relative_humidity_pct",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 4645,
+            "mean": 65.9942135,
+            "median": 65.93,
+            "std": 10.704533926974468,
+            "min": 35.0,
+            "max": 98.0,
+            "skew": 0.01915163654902855,
+            "outlier_count": 61
+        },
+        {
+            "name": "area_ha",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 19912,
+            "mean": 8930.3945525,
+            "median": 8892.325,
+            "std": 5189.906436045856,
+            "min": 15.29,
+            "max": 17998.9,
+            "skew": 0.006284370178732582,
+            "outlier_count": 0
+        },
+        {
+            "name": "production_tonnes",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 19964,
+            "mean": 82085.1961845,
+            "median": 19630.345,
+            "std": 178766.2965965762,
+            "min": 14.49,
+            "max": 1312227.77,
+            "skew": 3.670337170206314,
+            "outlier_count": 3386
+        },
+        {
+            "name": "yield_kg_ha",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 19621,
+            "mean": 9229.925042,
+            "median": 2383.9049999999997,
+            "std": 16722.724645239363,
+            "min": 461.67,
+            "max": 80871.77,
+            "skew": 2.5822674226363262,
+            "outlier_count": 2884
+        },
+        {
+            "name": "illustrative_SFI_0_100",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 4483,
+            "mean": 69.40441499999999,
+            "median": 69.95,
+            "std": 10.314003545240402,
+            "min": 27.15,
+            "max": 98.34,
+            "skew": -0.23387179189061003,
+            "outlier_count": 55
+        },
+        {
+            "name": "recommended_N_kg_ha_simulated",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 2273,
+            "mean": 119.76468999999999,
+            "median": 123.95,
+            "std": 64.53479487215684,
+            "min": 0.0,
+            "max": 246.0,
+            "skew": -0.11217768196545791,
+            "outlier_count": 0
+        },
+        {
+            "name": "recommended_P_kg_ha_simulated",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 817,
+            "mean": 55.592365,
+            "median": 53.3,
+            "std": 18.473780750986972,
+            "min": 11.3,
+            "max": 97.0,
+            "skew": 0.427543854415794,
+            "outlier_count": 0
+        },
+        {
+            "name": "recommended_K_kg_ha_simulated",
+            "type": "float64",
+            "missing_pct": 0.0,
+            "unique_values": 1497,
+            "mean": 54.37613,
+            "median": 38.6,
+            "std": 42.920481073816966,
+            "min": 0.0,
+            "max": 165.6,
+            "skew": 1.096679587691581,
+            "outlier_count": 971
+        },
+        {
+            "name": "data_type",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 1,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "data_source",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 1,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        },
+        {
+            "name": "research_use_warning",
+            "type": "str",
+            "missing_pct": 0.0,
+            "unique_values": 1,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "min": null,
+            "max": null,
+            "skew": null,
+            "outlier_count": 0
+        }
+    ],
+    "crop_distribution": {
+        "counts": {
+            "Vegetables": 1721,
+            "Rice": 1704,
+            "Tea": 1684,
+            "Jute": 1671,
+            "Maize": 1671,
+            "Mustard": 1671,
+            "Potato": 1665,
+            "Lentil": 1661,
+            "Groundnut": 1659,
+            "Sugarcane": 1658,
+            "Wheat": 1649,
+            "Sesame": 1586
+        },
+        "imbalance_ratio": 1.0851197982345524
+    },
+    "district_counts": {
+        "Cooch Behar": 906,
+        "Alipurduar": 906,
+        "Dakshin Dinajpur": 904,
+        "Purulia": 903,
+        "Nadia": 902,
+        "Malda": 895,
+        "South 24 Parganas": 891,
+        "Hooghly": 888,
+        "Purba Bardhaman": 887,
+        "Uttar Dinajpur": 885,
+        "Howrah": 878,
+        "Jhargram": 877,
+        "Jalpaiguri": 875,
+        "Darjeeling": 874,
+        "Birbhum": 864,
+        "Paschim Bardhaman": 860,
+        "Kalimpong": 854,
+        "Paschim Medinipur": 845,
+        "Murshidabad": 842,
+        "Bankura": 830,
+        "North 24 Parganas": 824,
+        "Purba Medinipur": 824,
+        "Kolkata": 786
+    },
+    "VIF": [
+        {
+            "feature": "soil_pH",
+            "VIF": 1.0836465657340169
+        },
+        {
+            "feature": "soil_EC_dS_m",
+            "VIF": 1.001162714490908
+        },
+        {
+            "feature": "soil_organic_carbon_pct",
+            "VIF": 1.0797465195305957
+        },
+        {
+            "feature": "available_N_kg_ha",
+            "VIF": 1.1191206325514431
+        },
+        {
+            "feature": "available_P_kg_ha",
+            "VIF": 1.0005528216313686
+        },
+        {
+            "feature": "available_K_kg_ha",
+            "VIF": 1.1618557378395045
+        },
+        {
+            "feature": "available_S_mg_kg",
+            "VIF": 1.000575298032761
+        },
+        {
+            "feature": "Zn_mg_kg",
+            "VIF": 1.0012272948063539
+        },
+        {
+            "feature": "Fe_mg_kg",
+            "VIF": 1.0012236155971004
+        },
+        {
+            "feature": "Mn_mg_kg",
+            "VIF": 1.000892233209685
+        },
+        {
+            "feature": "Cu_mg_kg",
+            "VIF": 1.001305667722876
+        },
+        {
+            "feature": "B_mg_kg",
+            "VIF": 1.0009534481100948
+        },
+        {
+            "feature": "latitude_approx",
+            "VIF": 2.2986334102695083
+        },
+        {
+            "feature": "longitude_approx",
+            "VIF": 1.7927700863026064
+        },
+        {
+            "feature": "annual_mean_temperature_C",
+            "VIF": 1.5742790931557824
+        },
+        {
+            "feature": "annual_rainfall_mm",
+            "VIF": 1.6587186319343703
+        },
+        {
+            "feature": "relative_humidity_pct",
+            "VIF": 1.0010223026666458
+        }
+    ]
+}

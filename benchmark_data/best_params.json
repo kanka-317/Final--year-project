@@ -1,0 +1,15 @@
+{
+    "Best Supervised Classifier": {
+        "Algorithm": "Extra Trees Classifier (n=100)",
+        "Macro F1": 0.4259964852374017,
+        "Accuracy": 0.4295,
+        "MCC": 0.37771831072354733
+    },
+    "Top Yield Regressor": {
+        "Algorithm": "Lasso Regressor",
+        "R2": 0.9085776714463991,
+        "RMSE": 5057.138452125975
+    },
+    "GA Selected Features Count": 24,
+    "Total Algorithms Benchmarked": 50
+}

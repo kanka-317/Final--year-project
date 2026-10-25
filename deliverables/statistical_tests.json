@@ -1,0 +1,46 @@
+{
+    "friedman_stat": 2.142857142857139,
+    "friedman_pvalue": 0.8290457718047982,
+    "pairwise_against_extratrees": [
+        {
+            "Model": "HistGradientBoosting",
+            "W_stat": 4.5,
+            "p_value_raw": 0.5625,
+            "Cohen_d": 0.2572961570609394,
+            "p_value_holm": 1.0,
+            "statistically_significant": false
+        },
+        {
+            "Model": "Decision Tree (CART)",
+            "W_stat": 5.0,
+            "p_value_raw": 0.625,
+            "Cohen_d": -0.4612128800395475,
+            "p_value_holm": 1.0,
+            "statistically_significant": false
+        },
+        {
+            "Model": "Linear SVM",
+            "W_stat": 7.0,
+            "p_value_raw": 1.0,
+            "Cohen_d": 0.04825939685833731,
+            "p_value_holm": 1.0,
+            "statistically_significant": false
+        },
+        {
+            "Model": "Random Forest (n=100)",
+            "W_stat": 6.0,
+            "p_value_raw": 0.8125,
+            "Cohen_d": 0.048691500720122356,
+            "p_value_holm": 1.0,
+            "statistically_significant": false
+        },
+        {
+            "Model": "Logistic Regression (L2)",
+            "W_stat": 7.0,
+            "p_value_raw": 1.0,
+            "Cohen_d": -0.04044446947261988,
+            "p_value_holm": 1.0,
+            "statistically_significant": false
+        }
+    ]
+}
